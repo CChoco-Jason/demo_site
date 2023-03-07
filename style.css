@@ -1,5 +1,5 @@
 * {
-  background-color: #DF99F0;
+  background-color: #62C370;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -32,7 +32,7 @@
   background-color: #FAFFFD;
 }
 
-.sign_in{
+.sign-in{
   position: absolute;
   left: 50%;
   top: 50%;
@@ -41,4 +41,23 @@
   height: 40vh;
   border: 10px solid white;
   border-radius: 20px;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-login{
+  margin: 5px;
+}
+
+#img{
+  border-radius: 10px;
+}
+
+.photos{
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
 }
